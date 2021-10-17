@@ -1,0 +1,13 @@
+ {
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Rider 2021",
+    "description": "Install rider 2021",
+    "iconUri": "https://www.pngfind.com/pngs/b/642-6424738_rider-png.png",
+    "targetOsType": "Windows",
+    "parameters": {
+      
+    },
+    "runCommand": {
+        "commandToExecute": "choco install jetbrains-rider"
+      }
+    }
